@@ -1,13 +1,25 @@
-## Deploy Drone CI
+## Installation guide
 
-Prerequisites:
+For Drone CI installation [paralect.drone](https://galaxy.ansible.com/paralect/drone/) Ansible role is used. 
+
+### Prerequisites
 
 1. [Ansible](http://docs.ansible.com/ansible/intro_installation.html)
 2. Ubuntu 16.04 server & ssh access to that server
 
-Installation steps:
+### Deploy to production
 
-1. Update server ip in `hosts` file. If you are planning to use same server for both drone and nginx - just put same ip for both, drone & nginx targets.
+❕ deploment tested on the latest [DigitalOcean](https://www.digitalocean.com/) Ubuntu dropet. me changes might required to run other linux distributives.
+
+High level deployment steps:
+1. Docker installation
+2. Nginx proxy installation & configuration to work with Drone
+3. [PostgreSQL](https://www.postgresql.org/) installation for Drone to persist build information
+4. Running Drone & Drone CI inside Docker containers
+5. Optional configuration of SSL certificate
+
+Prepare for deployment:
+1. Update server ip in `deploy/hosts` file. If you are planning to use same server for both drone and nginx - just put same ip for both, drone & nginx targets.
 2. Install Ansible role dependencies with one command: `./bin/install-ansible-dependencies.sh`
 3. Update github application callback url to either point to your server ip address or your domain. For example:
 `http://ci.myapp.com/login` or just `http://server_ip/login`.
