@@ -1,7 +1,7 @@
 {
   "name": "deploy-drone",
   "description": "Deploy Drone CI to enable continuous integration ⚡️ on your product",
-  "author": "Auxilin",
+  "author": "Paralect",
   "license": "MIT",
   "devDependencies": {
     "all-contributors-cli": "5.11.0"
