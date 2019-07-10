@@ -6,7 +6,7 @@
     - "vars/credentials.yml"
     - "vars/main.yml"
   roles:
-    - role: drone
+    - role: paralect.drone
       # Version of Drone CI, see other versions here: https://hub.docker.com/r/drone/drone/tags/
       drone_version: 1.2.1
 
