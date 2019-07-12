@@ -1,6 +1,6 @@
 {
   "name": "deploy-drone",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deploy Drone CI to enable continuous integration ⚡️ on your product",
   "author": "Paralect",
   "license": "MIT",
