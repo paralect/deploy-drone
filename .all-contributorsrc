@@ -1,0 +1,33 @@
+{
+  "projectName": "deploy-drone",
+  "projectOwner": "paralect",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Mar1nka",
+      "name": "Mar1nka",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25400321?v=4",
+      "profile": "https://github.com/Mar1nka",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "arlovaalina",
+      "name": "arlovaalina",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29101647?v=4",
+      "profile": "https://github.com/arlovaalina",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
